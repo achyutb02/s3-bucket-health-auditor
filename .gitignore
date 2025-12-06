@@ -1,0 +1,23 @@
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+*.tfstate.backup
+crash.log
+
+# Local config (keep out of Git)
+terraform.tfvars
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Lambda build artifact
+lambda.zip
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+s3_audit_report_*.json
