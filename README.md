@@ -1,4 +1,4 @@
-# 🛡️ S3 Security Guardian – S3 Bucket Health Auditor
+# S3 Security Guardian – S3 Bucket Health Auditor
 
 **S3 Security Guardian** is a real-world AWS security automation project that continuously audits all S3 buckets in an account, classifies their risk level, writes JSON + human-readable reports, and sends **email alerts** when serious issues are found.
 
