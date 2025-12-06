@@ -1,8 +1,17 @@
 # 🛡️ S3 Security Guardian
 
-**Automated, Serverless S3 Security Auditing & Compliance**
+# S3 Security Guardian – S3 Bucket Health Auditor
 
-**S3 Security Guardian** is a robust, event-driven security tool designed to automatically audit your AWS S3 environment. It detects dangerous misconfigurations—like public access and unencrypted data—and alerts you immediately, ensuring your cloud storage remains secure and compliant.
+S3 Security Guardian is a **real-world AWS security automation** project that continuously audits all S3 buckets in an AWS account, classifies their risk level, writes JSON + human-readable reports, and sends **email alerts** for serious issues.
+
+It uses:
+
+- **AWS Lambda (Python)** – to scan buckets and generate reports  
+- **Amazon S3** – to store audit reports  
+- **Amazon EventBridge** – to run the audit on a schedule  
+- **Amazon SNS** – to email alerts for HIGH/CRITICAL issues  
+- **Terraform** – to deploy the entire stack with a single `terraform apply`
+
 
 ---
 
